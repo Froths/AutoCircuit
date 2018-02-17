@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        /* Create three equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 10px;
+            height: 700px; /* Should be removed. Only for demonstration */
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+    <script type="text/javascript" src="GenerateCircuitByCommand.js"></script>
+    <script type="text/javascript" src="DrawCanvasCircuit.js"></script>
+</head>
+<body onload = init()>
+
+    <h2>Three Equal Columns</h2>
+
+    <div class="row">
+
+        <!-- Column for user input -->
+        <div class="column" style="background-color:#aaa;">
+            <h2>Shorthand Input</h2>
+            <p id="output">Some text..</p>
+            <textarea id="input" rows="10" oninput="update()" cols="35"></textarea>
+            <form>
+                x-Coordinate Multiplier: <input type="number" id="xMult" min="1" max="5" oninput="update()"><br>
+                y-Coordinate Multiplier: <input type="number" id="yMult" min="1" max="5" oninput="update()">
+            </form>
+        </div>
+
+
+        <!-- Column for Tikz code -->
+        <div class="column" style="background-color:#bbb;">
+            <h2>LaTeX Code</h2>
+            <p id = "tikzcode" style="white-space:pre">\begin{tikzpicture}<br>\end{tikzpicture}</p> <!--  -->
+        </div>
+
+
+        <!-- Column for circuit previews -->
+        <div class="column" style="background-color:#ccc;">
+            <h2>Circuit Preview</h2>
+            <img id="tikzpicture" src="">
+            <canvas id="myCanvas" width="600" height="600" style="border:1px solid #d3d3d3;">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+        </div>
+
+
+    </div>
+
+
+    <!-- Auto refresh ***real Tikz circuit*** every 2s (if code has changed) -->
+    <script>
+        function init()
+            {
+            window.setInterval(function(){updateTikzPic()},2000);
+            }
+    </script>
+
+
+</body>
+</html>
