@@ -18,4 +18,4 @@ Demo: http://htmlpreview.github.io/?https://github.com/Froths/AutoCircuit/blob/m
 		- `vs` or `voltage source`
 
 - `{comp} {x1} {y1} {x2} {y2}`: Draws a component that starts at the coordinate `(x1,y1)` and ends at `(x2,y2)`
-	- Currently supported components are the same as for the `{comp} {node1} {node2}` syntax
+	- Currently supported components are the same as for the `{comp} {node1} {node2}` syntax 
