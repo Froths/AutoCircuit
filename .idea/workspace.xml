@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b2aad5f-5e3b-41e7-a09d-6f77d508dee5" name="Default" comment="" />
+    <list default="true" id="0b2aad5f-5e3b-41e7-a09d-6f77d508dee5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/DrawCanvasCircuit.js" afterPath="$PROJECT_DIR$/DrawCanvasCircuit.js" />
+      <change beforePath="$PROJECT_DIR$/GenerateCircuitByCommand.js" afterPath="$PROJECT_DIR$/GenerateCircuitByCommand.js" />
+      <change beforePath="$PROJECT_DIR$/capacitor.png" afterPath="$PROJECT_DIR$/images/capacitor.png" />
+      <change beforePath="$PROJECT_DIR$/cs.png" afterPath="$PROJECT_DIR$/images/cs.png" />
+      <change beforePath="$PROJECT_DIR$/inductor.png" afterPath="$PROJECT_DIR$/images/inductor.png" />
+      <change beforePath="$PROJECT_DIR$/resistor.png" afterPath="$PROJECT_DIR$/images/resistor.png" />
+      <change beforePath="$PROJECT_DIR$/resistor2.gif" afterPath="$PROJECT_DIR$/images/resistor2.gif" />
+      <change beforePath="$PROJECT_DIR$/vs.png" afterPath="$PROJECT_DIR$/images/vs.png" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,31 +24,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DrawCanvasCircuit.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DrawCanvasCircuit.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DrawCanvasCircuit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+            <state relative-caret-position="323">
+              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GenerateCircuitByCommand.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GenerateCircuitByCommand.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GenerateCircuitByCommand.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3598">
-              <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state relative-caret-position="1139">
+              <caret line="362" column="4" lean-forward="false" selection-start-line="362" selection-start-column="4" selection-end-line="362" selection-end-column="4" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+                <element signature="e#476#534#0" expanded="false" />
+                <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
+                <element signature="e#733#1140#0" expanded="false" />
                 <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-                <element signature="e#3470#3555#0" expanded="false" />
-                <element signature="n#!!block;n#parseSelection#0" expanded="false" />
+                <element signature="e#1642#1821#0" expanded="false" />
+                <element signature="e#1889#2042#0" expanded="false" />
+                <element signature="e#2048#2105#0" expanded="false" />
+                <element signature="n#!!block;n#update#0" expanded="false" />
+                <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
+                <element signature="e#3230#3265#0" expanded="false" />
+                <element signature="n#!!block;n#parseInput#0" expanded="false" />
+                <element signature="e#3563#3650#0" expanded="false" />
+                <element signature="e#3593#3646#0" expanded="false" />
+                <element signature="n#!!block;n#parseDims#0" expanded="false" />
+                <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
+                <element signature="e#4679#4997#0" expanded="false" />
+                <element signature="e#4769#4853#0" expanded="false" />
+                <element signature="e#4888#4971#0" expanded="false" />
+                <element signature="n#!!block;n#writeDims#0" expanded="false" />
+                <element signature="e#6087#6119#0" expanded="false" />
+                <element signature="e#6225#6304#0" expanded="false" />
+                <element signature="e#6469#7153#0" expanded="false" />
+                <element signature="e#6512#7149#0" expanded="false" />
+                <element signature="e#6616#6863#0" expanded="false" />
+                <element signature="e#6895#7144#0" expanded="false" />
                 <element signature="n#!!block;n#writeComps#0" expanded="false" />
+                <element signature="e#12319#12407#0" expanded="false" />
+                <element signature="e#12462#12552#0" expanded="false" />
+                <element signature="e#12606#12694#0" expanded="false" />
                 <element signature="n#!!block;n#writeComp#0" expanded="false" />
-                <marker date="1518899803045" expanded="true" signature="5779:5783" ph="..." />
-                <marker date="1518899803045" expanded="true" signature="11912:11916" ph="..." />
-                <marker date="1518899803045" expanded="true" signature="12079:12083" ph="..." />
+                <element signature="e#13030#13402#0" expanded="false" />
+                <element signature="e#13428#13618#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -47,8 +81,8 @@
       <file leaf-file-name="mainmaybe.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainmaybe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+            <state relative-caret-position="680">
+              <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -95,6 +129,7 @@
       <find>capacitor</find>
       <find>writeComps</find>
       <find>writeComp</find>
+      <find>tikz</find>
     </findStrings>
     <replaceStrings>
       <replace>commands</replace>
@@ -106,6 +141,9 @@
       <replace>vs</replace>
       <replace>cs</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -119,6 +157,7 @@
         <option value="$PROJECT_DIR$/testing.js" />
         <option value="$PROJECT_DIR$/mainmaybe.html" />
         <option value="$PROJECT_DIR$/GenerateCircuitByCommand.js" />
+        <option value="$PROJECT_DIR$/DrawCanvasCircuit.js" />
       </list>
     </option>
   </component>
@@ -134,11 +173,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1087" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -155,6 +195,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,11 +203,15 @@
               <item name="AutoCircuit" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutoCircuit" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AutoCircuit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoCircuit" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -180,6 +225,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Literal Genie\Documents\LaTeX\AutoCircuit\images" />
       <recent name="C:\Users\Literal Genie\Documents\LaTeX\AutoCircuit" />
     </key>
   </component>
@@ -228,34 +274,36 @@
       <workItem from="1517545275999" duration="468000" />
       <workItem from="1518583082006" duration="2864000" />
       <workItem from="1518623125905" duration="689000" />
-      <workItem from="1518897314025" duration="2876000" />
+      <workItem from="1518897314025" duration="3150000" />
+      <workItem from="1518902353385" duration="700000" />
+      <workItem from="1518907638720" duration="1970000" />
+      <workItem from="1519140983628" duration="12147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76103000" />
+    <option name="totallyTimeSpent" value="91194000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40349075" sideWeight="0.5062631" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979655" sideWeight="0.49373695" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39979655" sideWeight="0.49373695" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1053" y="100" width="774" height="887" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -287,7 +335,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="128" />
+      <option name="time" value="138" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JavascriptDebugType">
@@ -297,6 +345,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>hiddenCode</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>commands[i] == 'l'</expression-string>
         <language-id>JavaScript</language-id>
@@ -343,7 +396,19 @@
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>comp.partialKeys[0] == &quot;resistor&quot;</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="watch">
+      <expression>
+        <expression-string>hiddenCode</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>e</expression-string>
         <language-id>JavaScript</language-id>
@@ -356,6 +421,11 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>hiddenCode</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>labelRegex.test([nodes[i]])</expression-string>
         <language-id>JavaScript</language-id>
@@ -384,6 +454,198 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainmaybe.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenerateCircuitByCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7106">
+          <caret line="442" column="40" lean-forward="true" selection-start-line="442" selection-start-column="40" selection-end-line="442" selection-end-column="40" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#476#534#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
+            <element signature="e#733#1140#0" expanded="false" />
+            <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
+            <element signature="e#1642#1821#0" expanded="false" />
+            <element signature="e#1889#2042#0" expanded="false" />
+            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="n#!!block;n#update#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
+            <element signature="e#3230#3265#0" expanded="false" />
+            <element signature="n#!!block;n#parseInput#0" expanded="false" />
+            <element signature="e#3563#3650#0" expanded="false" />
+            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="n#!!block;n#parseDims#0" expanded="false" />
+            <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
+            <element signature="e#4679#4997#0" expanded="false" />
+            <element signature="e#4769#4853#0" expanded="false" />
+            <element signature="e#4888#4971#0" expanded="false" />
+            <element signature="n#!!block;n#writeDims#0" expanded="false" />
+            <element signature="e#6087#6119#0" expanded="false" />
+            <element signature="e#6225#6304#0" expanded="false" />
+            <element signature="e#6469#7153#0" expanded="false" />
+            <element signature="e#6512#7149#0" expanded="false" />
+            <element signature="e#6616#6863#0" expanded="false" />
+            <element signature="e#6895#7144#0" expanded="false" />
+            <element signature="n#!!block;n#writeComps#0" expanded="false" />
+            <element signature="e#12319#12407#0" expanded="false" />
+            <element signature="e#12462#12552#0" expanded="false" />
+            <element signature="e#12606#12694#0" expanded="false" />
+            <element signature="n#!!block;n#writeComp#0" expanded="false" />
+            <element signature="e#13030#13402#0" expanded="false" />
+            <element signature="e#13428#13618#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DrawCanvasCircuit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenerateCircuitByCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6545">
+          <caret line="385" column="4" lean-forward="true" selection-start-line="385" selection-start-column="4" selection-end-line="385" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#476#534#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
+            <element signature="e#733#1140#0" expanded="false" />
+            <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
+            <element signature="e#1642#1821#0" expanded="false" />
+            <element signature="e#1889#2042#0" expanded="false" />
+            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="n#!!block;n#update#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
+            <element signature="e#3230#3265#0" expanded="false" />
+            <element signature="n#!!block;n#parseInput#0" expanded="false" />
+            <element signature="e#3563#3650#0" expanded="false" />
+            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="n#!!block;n#parseDims#0" expanded="false" />
+            <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
+            <element signature="e#4679#4997#0" expanded="false" />
+            <element signature="e#4769#4853#0" expanded="false" />
+            <element signature="e#4888#4971#0" expanded="false" />
+            <element signature="n#!!block;n#writeDims#0" expanded="false" />
+            <element signature="e#6087#6119#0" expanded="false" />
+            <element signature="e#6225#6304#0" expanded="false" />
+            <element signature="e#6469#7153#0" expanded="false" />
+            <element signature="e#6512#7149#0" expanded="false" />
+            <element signature="e#6616#6863#0" expanded="false" />
+            <element signature="e#6895#7144#0" expanded="false" />
+            <element signature="n#!!block;n#writeComps#0" expanded="false" />
+            <element signature="e#12319#12407#0" expanded="false" />
+            <element signature="e#12462#12552#0" expanded="false" />
+            <element signature="e#12606#12694#0" expanded="false" />
+            <element signature="n#!!block;n#writeComp#0" expanded="false" />
+            <element signature="e#13030#13402#0" expanded="false" />
+            <element signature="e#13428#13618#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainmaybe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DrawCanvasCircuit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainmaybe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenerateCircuitByCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#476#534#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
+            <element signature="e#733#1140#0" expanded="false" />
+            <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
+            <element signature="e#1642#1821#0" expanded="false" />
+            <element signature="e#1889#2042#0" expanded="false" />
+            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="n#!!block;n#update#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
+            <element signature="e#3230#3265#0" expanded="false" />
+            <element signature="n#!!block;n#parseInput#0" expanded="false" />
+            <element signature="e#3563#3650#0" expanded="false" />
+            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="n#!!block;n#parseDims#0" expanded="false" />
+            <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
+            <element signature="e#4679#4997#0" expanded="false" />
+            <element signature="e#4769#4853#0" expanded="false" />
+            <element signature="e#4888#4971#0" expanded="false" />
+            <element signature="n#!!block;n#writeDims#0" expanded="false" />
+            <element signature="e#6087#6119#0" expanded="false" />
+            <element signature="e#6225#6304#0" expanded="false" />
+            <element signature="e#6469#7153#0" expanded="false" />
+            <element signature="e#6512#7149#0" expanded="false" />
+            <element signature="e#6616#6863#0" expanded="false" />
+            <element signature="e#6895#7144#0" expanded="false" />
+            <element signature="n#!!block;n#writeComps#0" expanded="false" />
+            <element signature="e#12319#12407#0" expanded="false" />
+            <element signature="e#12462#12552#0" expanded="false" />
+            <element signature="e#12606#12694#0" expanded="false" />
+            <element signature="n#!!block;n#writeComp#0" expanded="false" />
+            <element signature="e#13030#13402#0" expanded="false" />
+            <element signature="e#13428#13618#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DrawCanvasCircuit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainmaybe.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="52" column="51" lean-forward="false" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
           <folding>
@@ -402,14 +664,38 @@
           <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#476#534#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
+            <element signature="e#733#1140#0" expanded="false" />
             <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-            <element signature="e#3470#3555#0" expanded="false" />
-            <element signature="n#!!block;n#parseSelection#0" expanded="false" />
+            <element signature="e#1642#1821#0" expanded="false" />
+            <element signature="e#1889#2042#0" expanded="false" />
+            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="n#!!block;n#update#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
+            <element signature="e#3230#3265#0" expanded="false" />
+            <element signature="n#!!block;n#parseInput#0" expanded="false" />
+            <element signature="e#3563#3650#0" expanded="false" />
+            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="n#!!block;n#parseDims#0" expanded="false" />
+            <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
+            <element signature="e#4679#4997#0" expanded="false" />
+            <element signature="e#4769#4853#0" expanded="false" />
+            <element signature="e#4888#4971#0" expanded="false" />
+            <element signature="n#!!block;n#writeDims#0" expanded="false" />
+            <element signature="e#6087#6119#0" expanded="false" />
+            <element signature="e#6225#6304#0" expanded="false" />
+            <element signature="e#6469#7153#0" expanded="false" />
+            <element signature="e#6512#7149#0" expanded="false" />
+            <element signature="e#6616#6863#0" expanded="false" />
+            <element signature="e#6895#7144#0" expanded="false" />
             <element signature="n#!!block;n#writeComps#0" expanded="false" />
+            <element signature="e#12319#12407#0" expanded="false" />
+            <element signature="e#12462#12552#0" expanded="false" />
+            <element signature="e#12606#12694#0" expanded="false" />
             <element signature="n#!!block;n#writeComp#0" expanded="false" />
-            <marker date="1518899803045" expanded="true" signature="5779:5783" ph="..." />
-            <marker date="1518899803045" expanded="true" signature="11912:11916" ph="..." />
-            <marker date="1518899803045" expanded="true" signature="12079:12083" ph="..." />
+            <element signature="e#13030#13402#0" expanded="false" />
+            <element signature="e#13428#13618#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -442,14 +728,38 @@
           <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#476#534#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
+            <element signature="e#733#1140#0" expanded="false" />
             <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-            <element signature="e#3470#3555#0" expanded="false" />
-            <element signature="n#!!block;n#parseSelection#0" expanded="false" />
+            <element signature="e#1642#1821#0" expanded="false" />
+            <element signature="e#1889#2042#0" expanded="false" />
+            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="n#!!block;n#update#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
+            <element signature="e#3230#3265#0" expanded="false" />
+            <element signature="n#!!block;n#parseInput#0" expanded="false" />
+            <element signature="e#3563#3650#0" expanded="false" />
+            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="n#!!block;n#parseDims#0" expanded="false" />
+            <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
+            <element signature="e#4679#4997#0" expanded="false" />
+            <element signature="e#4769#4853#0" expanded="false" />
+            <element signature="e#4888#4971#0" expanded="false" />
+            <element signature="n#!!block;n#writeDims#0" expanded="false" />
+            <element signature="e#6087#6119#0" expanded="false" />
+            <element signature="e#6225#6304#0" expanded="false" />
+            <element signature="e#6469#7153#0" expanded="false" />
+            <element signature="e#6512#7149#0" expanded="false" />
+            <element signature="e#6616#6863#0" expanded="false" />
+            <element signature="e#6895#7144#0" expanded="false" />
             <element signature="n#!!block;n#writeComps#0" expanded="false" />
+            <element signature="e#12319#12407#0" expanded="false" />
+            <element signature="e#12462#12552#0" expanded="false" />
+            <element signature="e#12606#12694#0" expanded="false" />
             <element signature="n#!!block;n#writeComp#0" expanded="false" />
-            <marker date="1518899803045" expanded="true" signature="5779:5783" ph="..." />
-            <marker date="1518899803045" expanded="true" signature="11912:11916" ph="..." />
-            <marker date="1518899803045" expanded="true" signature="12079:12083" ph="..." />
+            <element signature="e#13030#13402#0" expanded="false" />
+            <element signature="e#13428#13618#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -468,14 +778,38 @@
           <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#476#534#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
+            <element signature="e#733#1140#0" expanded="false" />
             <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-            <element signature="e#3470#3555#0" expanded="false" />
-            <element signature="n#!!block;n#parseSelection#0" expanded="false" />
+            <element signature="e#1642#1821#0" expanded="false" />
+            <element signature="e#1889#2042#0" expanded="false" />
+            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="n#!!block;n#update#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
+            <element signature="e#3230#3265#0" expanded="false" />
+            <element signature="n#!!block;n#parseInput#0" expanded="false" />
+            <element signature="e#3563#3650#0" expanded="false" />
+            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="n#!!block;n#parseDims#0" expanded="false" />
+            <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
+            <element signature="e#4679#4997#0" expanded="false" />
+            <element signature="e#4769#4853#0" expanded="false" />
+            <element signature="e#4888#4971#0" expanded="false" />
+            <element signature="n#!!block;n#writeDims#0" expanded="false" />
+            <element signature="e#6087#6119#0" expanded="false" />
+            <element signature="e#6225#6304#0" expanded="false" />
+            <element signature="e#6469#7153#0" expanded="false" />
+            <element signature="e#6512#7149#0" expanded="false" />
+            <element signature="e#6616#6863#0" expanded="false" />
+            <element signature="e#6895#7144#0" expanded="false" />
             <element signature="n#!!block;n#writeComps#0" expanded="false" />
+            <element signature="e#12319#12407#0" expanded="false" />
+            <element signature="e#12462#12552#0" expanded="false" />
+            <element signature="e#12606#12694#0" expanded="false" />
             <element signature="n#!!block;n#writeComp#0" expanded="false" />
-            <marker date="1518899803045" expanded="true" signature="5779:5783" ph="..." />
-            <marker date="1518899803045" expanded="true" signature="11912:11916" ph="..." />
-            <marker date="1518899803045" expanded="true" signature="12079:12083" ph="..." />
+            <element signature="e#13030#13402#0" expanded="false" />
+            <element signature="e#13428#13618#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -508,14 +842,38 @@
           <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#476#534#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
+            <element signature="e#733#1140#0" expanded="false" />
             <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-            <element signature="e#3470#3555#0" expanded="false" />
-            <element signature="n#!!block;n#parseSelection#0" expanded="false" />
+            <element signature="e#1642#1821#0" expanded="false" />
+            <element signature="e#1889#2042#0" expanded="false" />
+            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="n#!!block;n#update#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
+            <element signature="e#3230#3265#0" expanded="false" />
+            <element signature="n#!!block;n#parseInput#0" expanded="false" />
+            <element signature="e#3563#3650#0" expanded="false" />
+            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="n#!!block;n#parseDims#0" expanded="false" />
+            <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
+            <element signature="e#4679#4997#0" expanded="false" />
+            <element signature="e#4769#4853#0" expanded="false" />
+            <element signature="e#4888#4971#0" expanded="false" />
+            <element signature="n#!!block;n#writeDims#0" expanded="false" />
+            <element signature="e#6087#6119#0" expanded="false" />
+            <element signature="e#6225#6304#0" expanded="false" />
+            <element signature="e#6469#7153#0" expanded="false" />
+            <element signature="e#6512#7149#0" expanded="false" />
+            <element signature="e#6616#6863#0" expanded="false" />
+            <element signature="e#6895#7144#0" expanded="false" />
             <element signature="n#!!block;n#writeComps#0" expanded="false" />
+            <element signature="e#12319#12407#0" expanded="false" />
+            <element signature="e#12462#12552#0" expanded="false" />
+            <element signature="e#12606#12694#0" expanded="false" />
             <element signature="n#!!block;n#writeComp#0" expanded="false" />
-            <marker date="1518899803045" expanded="true" signature="5779:5783" ph="..." />
-            <marker date="1518899803045" expanded="true" signature="11912:11916" ph="..." />
-            <marker date="1518899803045" expanded="true" signature="12079:12083" ph="..." />
+            <element signature="e#13030#13402#0" expanded="false" />
+            <element signature="e#13428#13618#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -593,17 +951,17 @@
     <entry file="file://$PROJECT_DIR$/pdftex.js" />
     <entry file="file://$PROJECT_DIR$/promise.js" />
     <entry file="file://$PROJECT_DIR$/texlive.js" />
-    <entry file="file://$PROJECT_DIR$/resistor.png">
+    <entry file="file://$PROJECT_DIR$/images/resistor.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resistor2.gif">
+    <entry file="file://$PROJECT_DIR$/images/resistor2.gif">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/capacitor.png">
+    <entry file="file://$PROJECT_DIR$/images/capacitor.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -612,14 +970,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5593">
           <caret line="329" column="0" lean-forward="false" selection-start-line="329" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainmaybe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="40" column="42" lean-forward="true" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+        <state relative-caret-position="680">
+          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -630,29 +987,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DrawCanvasCircuit.js">
+    <entry file="file://$PROJECT_DIR$/GenerateCircuitByCommand.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="1139">
+          <caret line="362" column="4" lean-forward="false" selection-start-line="362" selection-start-column="4" selection-end-line="362" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#476#534#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
+            <element signature="e#733#1140#0" expanded="false" />
+            <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
+            <element signature="e#1642#1821#0" expanded="false" />
+            <element signature="e#1889#2042#0" expanded="false" />
+            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="n#!!block;n#update#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
+            <element signature="e#3230#3265#0" expanded="false" />
+            <element signature="n#!!block;n#parseInput#0" expanded="false" />
+            <element signature="e#3563#3650#0" expanded="false" />
+            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="n#!!block;n#parseDims#0" expanded="false" />
+            <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
+            <element signature="e#4679#4997#0" expanded="false" />
+            <element signature="e#4769#4853#0" expanded="false" />
+            <element signature="e#4888#4971#0" expanded="false" />
+            <element signature="n#!!block;n#writeDims#0" expanded="false" />
+            <element signature="e#6087#6119#0" expanded="false" />
+            <element signature="e#6225#6304#0" expanded="false" />
+            <element signature="e#6469#7153#0" expanded="false" />
+            <element signature="e#6512#7149#0" expanded="false" />
+            <element signature="e#6616#6863#0" expanded="false" />
+            <element signature="e#6895#7144#0" expanded="false" />
+            <element signature="n#!!block;n#writeComps#0" expanded="false" />
+            <element signature="e#12319#12407#0" expanded="false" />
+            <element signature="e#12462#12552#0" expanded="false" />
+            <element signature="e#12606#12694#0" expanded="false" />
+            <element signature="n#!!block;n#writeComp#0" expanded="false" />
+            <element signature="e#13030#13402#0" expanded="false" />
+            <element signature="e#13428#13618#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateCircuitByCommand.js">
+    <entry file="file://$PROJECT_DIR$/DrawCanvasCircuit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3598">
-          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-            <element signature="e#3470#3555#0" expanded="false" />
-            <element signature="n#!!block;n#parseSelection#0" expanded="false" />
-            <element signature="n#!!block;n#writeComps#0" expanded="false" />
-            <element signature="n#!!block;n#writeComp#0" expanded="false" />
-            <marker date="1518899803045" expanded="true" signature="5779:5783" ph="..." />
-            <marker date="1518899803045" expanded="true" signature="11912:11916" ph="..." />
-            <marker date="1518899803045" expanded="true" signature="12079:12083" ph="..." />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

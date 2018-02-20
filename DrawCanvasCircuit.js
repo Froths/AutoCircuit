@@ -9,15 +9,15 @@ function canvasDraw()
 	ctx.clearRect(0, 0, c.width, c.height);
 
 	var resistor = new Image();
-	resistor.src = "resistor.png";
+	resistor.src = "images/resistor.png";
 	var capacitor = new Image();
-	capacitor.src = "capacitor.png";
+	capacitor.src = "images/capacitor.png";
 	var inductor = new Image();
-	inductor.src = "inductor.png";
+	inductor.src = "images/inductor.png";
 	var vs = new Image();
-	vs.src = "vs.png";
+	vs.src = "images/vs.png";
 	var cs = new Image();
-	cs.src = "cs.png";
+	cs.src = "images/cs.png";
 
 	var commands = (currentTikzCode.split("\n")).concat(hiddenCode.split("\n"));
 	for(var i = 0; i < commands.length; i++)
