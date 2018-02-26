@@ -1,3 +1,5 @@
+//@TODO: Flip voltage image so polarity is consistent with tikz
+
 var htmlScaling = 33;
 var htmlOffset = 18;
 
