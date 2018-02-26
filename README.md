@@ -38,6 +38,6 @@ ind 10 12    cap 12 14
 cs 0 10      short 0 4  vs 4 14
 ```
 
-Render:
+Output:
 
 ![2/26/2018](https://i.imgur.com/AdInrua.png)
