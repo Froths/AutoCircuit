@@ -29,7 +29,7 @@ function updateTikzPic()
 		prevPicUpdateTime = (new Date).getTime();
 
 		tikzPictureCode = currentTikzCode;
-		//doCORSRequest({data: request});
+		doCORSRequest({data: request});
 		}
 	var img = document.getElementById('tikzpicture');
 	img.setAttribute("style", "margin-bottom:-" + img.height + "px");
@@ -241,7 +241,8 @@ function writeDims(dims, dimOpts, output)
 			var label = "";
 			if (dimOpts.showLabels)
 				{
-				label = "Node " + (i * dims.cols + j);
+				//label = "Node " + (i * dims.cols + j);
+				label = "N" + (i * dims.cols + j);
 				}
 
 			let text = "&#9;\\node at (" + j * xMult + "," + i * yMult + ")\t(" + (i * dims.cols + j) + ")\t{" + label + "};<br>";
@@ -300,11 +301,12 @@ function writeDims(dims, dimOpts, output)
 function parseComps(commands)
 	{
 	var comps = {
-		resistors: [],
-		capacitors: [],
-		inductors: [],
-		vss: [],
-		css: []
+		resistors: ["resistor"],
+		capacitors: ["capacitor"],
+		inductors: ["inductor"],
+		vss: ["voltage source"],
+		css: ["current source"],
+		shorts: ["short"]
 	};
 
 	var resistor = 	{	fullKeys: [], partialKeys: ["resistor"], minKeySize: [1],
@@ -327,6 +329,10 @@ function parseComps(commands)
 					fullIgnores: [], partialIgnores: ["src", "source"], minIgnoreSize: [3,3]
 				};
 
+	var short = 	{	fullKeys: ["short", "wire"], partialKeys: ["short", "wire"], minKeySize: [2,1],
+						fullIgnores: [], partialIgnores: [], minIgnoreSize: []
+					};
+
 
 	var compArr = 	[
 						[comps.resistors, resistor],
@@ -334,6 +340,7 @@ function parseComps(commands)
 						[comps.inductors, inductor],
 						[comps.vss, vs],
 						[comps.css, cs],
+						[comps.shorts, short]
 					]
 
 	for (var i = 0; i < commands.length; i++)
@@ -351,7 +358,9 @@ function parseComps(commands)
 	return comps;
 	}
 
-//addComp returns true if a keyword was found
+//Returns true if a keyword was found
+//Adds any valid components found to options.compArr
+//@TODO: Dont pass as options obj. Make i,commands,compArr,comp required arguments.
 function addComp(options)
 	{
 	var i = options.index;
@@ -470,15 +479,6 @@ function parseForNodeCoords(options)
 			}
 		}
 
-	if (!isNaN(commands[i]) && !isNaN(commands[i + 1]) && isNaN(commands[i + 2]))
-		{
-		comp.btwnNodes = true;
-		comp.nodes.startNode = commands[i];
-		comp.nodes.endNode = commands[i + 1];
-		commands.splice(i, 2);
-		return comp;
-		}
-
 	if (!isNaN(commands[i]) && !isNaN(commands[i + 1]) && !isNaN(commands[i + 2]) && !isNaN(commands[i + 3]))
 		{
 		comp.btwnPoints = true;
@@ -490,6 +490,15 @@ function parseForNodeCoords(options)
 		return comp;
 		}
 
+	if (!isNaN(commands[i]) && !isNaN(commands[i + 1]))
+		{
+		comp.btwnNodes = true;
+		comp.nodes.startNode = commands[i];
+		comp.nodes.endNode = commands[i + 1];
+		commands.splice(i, 2);
+		return comp;
+		}
+
 	return comp;
 	}
 
@@ -497,34 +506,12 @@ function parseForNodeCoords(options)
 //Converts the component array to TikZ code and appends it onto the output string
 function writeComps(comps, dims, output)
 	{
-	for (var i = 0; i < comps.resistors.length; i++)
+	for (const [key, value] of Object.entries(comps))
 		{
-		var res = comps.resistors[i];
-		output.text += writeComp(res, "resistor", dims);
-		}
-
-	for (var i = 0; i < comps.capacitors.length; i++)
-		{
-		var cap = comps.capacitors[i];
-		output.text += writeComp(cap, "capacitor", dims);
-		}
-
-	for (var i = 0; i < comps.inductors.length; i++)
-		{
-		var ind = comps.inductors[i];
-		output.text += writeComp(ind, "inductor", dims);
-		}
-
-	for (var i = 0; i < comps.vss.length; i++)
-		{
-		var vs = comps.vss[i];
-		output.text += writeComp(vs, "voltage source", dims);
-		}
-
-	for (var i = 0; i < comps.css.length; i++)
-		{
-		var cs = comps.css[i];
-		output.text += writeComp(cs, "current source", dims);
+		for(var i = 1; i < value.length; i++)
+			{
+			output.text += writeComp(value[i], value[0], dims);
+			}
 		}
 	}
 

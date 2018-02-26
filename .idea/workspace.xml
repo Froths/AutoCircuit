@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b2aad5f-5e3b-41e7-a09d-6f77d508dee5" name="Default" comment="">
+    <list default="true" id="0b2aad5f-5e3b-41e7-a09d-6f77d508dee5" name="Default" comment="More comments&#10;&#10;Made adding component code easier with some refactoring (minimal amount of copy pasting). &#10;To add new components, simply:&#10;   - add a new arr to comps&#10;   - create a new var that holds the keyword/matching info&#10;   - add a new arr to compArr&#10;   &#10;Added (quicklatex) render button and minor UI additions.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/DrawCanvasCircuit.js" afterPath="$PROJECT_DIR$/DrawCanvasCircuit.js" />
       <change beforePath="$PROJECT_DIR$/GenerateCircuitByCommand.js" afterPath="$PROJECT_DIR$/GenerateCircuitByCommand.js" />
-      <change beforePath="$PROJECT_DIR$/capacitor.png" afterPath="$PROJECT_DIR$/images/capacitor.png" />
-      <change beforePath="$PROJECT_DIR$/cs.png" afterPath="$PROJECT_DIR$/images/cs.png" />
-      <change beforePath="$PROJECT_DIR$/inductor.png" afterPath="$PROJECT_DIR$/images/inductor.png" />
-      <change beforePath="$PROJECT_DIR$/resistor.png" afterPath="$PROJECT_DIR$/images/resistor.png" />
-      <change beforePath="$PROJECT_DIR$/resistor2.gif" afterPath="$PROJECT_DIR$/images/resistor2.gif" />
-      <change beforePath="$PROJECT_DIR$/vs.png" afterPath="$PROJECT_DIR$/images/vs.png" />
+      <change beforePath="$PROJECT_DIR$/mainmaybe.html" afterPath="$PROJECT_DIR$/mainmaybe.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DrawCanvasCircuit.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DrawCanvasCircuit.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DrawCanvasCircuit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+            <state relative-caret-position="850">
+              <caret line="50" column="53" lean-forward="false" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -37,58 +32,51 @@
       <file leaf-file-name="GenerateCircuitByCommand.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GenerateCircuitByCommand.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="362" column="4" lean-forward="false" selection-start-line="362" selection-start-column="4" selection-end-line="362" selection-end-column="4" />
+            <state relative-caret-position="2924">
+              <caret line="362" column="83" lean-forward="false" selection-start-line="362" selection-start-column="83" selection-end-line="362" selection-end-column="83" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#476#534#0" expanded="false" />
-                <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
-                <element signature="e#733#1140#0" expanded="false" />
                 <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-                <element signature="e#1642#1821#0" expanded="false" />
-                <element signature="e#1889#2042#0" expanded="false" />
-                <element signature="e#2048#2105#0" expanded="false" />
+                <element signature="e#1640#1819#0" expanded="false" />
+                <element signature="e#1887#2040#0" expanded="false" />
+                <element signature="e#2046#2103#0" expanded="false" />
                 <element signature="n#!!block;n#update#0" expanded="false" />
                 <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
-                <element signature="e#3230#3265#0" expanded="false" />
-                <element signature="n#!!block;n#parseInput#0" expanded="false" />
-                <element signature="e#3563#3650#0" expanded="false" />
-                <element signature="e#3593#3646#0" expanded="false" />
+                <element signature="e#3228#3263#0" expanded="false" />
+                <element signature="e#3561#3648#0" expanded="false" />
+                <element signature="e#3591#3644#0" expanded="false" />
                 <element signature="n#!!block;n#parseDims#0" expanded="false" />
                 <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
-                <element signature="e#4679#4997#0" expanded="false" />
-                <element signature="e#4769#4853#0" expanded="false" />
-                <element signature="e#4888#4971#0" expanded="false" />
-                <element signature="n#!!block;n#writeDims#0" expanded="false" />
-                <element signature="e#6087#6119#0" expanded="false" />
-                <element signature="e#6225#6304#0" expanded="false" />
-                <element signature="e#6469#7153#0" expanded="false" />
-                <element signature="e#6512#7149#0" expanded="false" />
-                <element signature="e#6616#6863#0" expanded="false" />
-                <element signature="e#6895#7144#0" expanded="false" />
-                <element signature="n#!!block;n#writeComps#0" expanded="false" />
-                <element signature="e#12319#12407#0" expanded="false" />
-                <element signature="e#12462#12552#0" expanded="false" />
-                <element signature="e#12606#12694#0" expanded="false" />
-                <element signature="n#!!block;n#writeComp#0" expanded="false" />
-                <element signature="e#13030#13402#0" expanded="false" />
-                <element signature="e#13428#13618#0" expanded="false" />
+                <element signature="e#4677#4995#0" expanded="false" />
+                <element signature="e#4767#4851#0" expanded="false" />
+                <element signature="e#4886#4969#0" expanded="false" />
+                <element signature="e#6126#6158#0" expanded="false" />
+                <element signature="e#6264#6343#0" expanded="false" />
+                <element signature="e#6508#7192#0" expanded="false" />
+                <element signature="e#6551#7188#0" expanded="false" />
+                <element signature="e#6655#6902#0" expanded="false" />
+                <element signature="e#6934#7183#0" expanded="false" />
+                <marker date="1519663940879" expanded="true" signature="5987:5991" ph="..." />
+                <marker date="1519663940879" expanded="true" signature="13152:13156" ph="..." />
+                <marker date="1519663940879" expanded="true" signature="13328:13332" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainmaybe.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="mainmaybe.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainmaybe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+            <state relative-caret-position="154">
+              <caret line="43" column="114" lean-forward="false" selection-start-line="43" selection-start-column="114" selection-end-line="43" selection-end-column="114" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,7 +108,6 @@
       <find>syntax</find>
       <find>resistor</find>
       <find>)</find>
-      <find>hidden</find>
       <find>nooverlap</find>
       <find>nodupe</find>
       <find>res</find>
@@ -130,6 +117,7 @@
       <find>writeComps</find>
       <find>writeComp</find>
       <find>tikz</find>
+      <find>hidden</find>
     </findStrings>
     <replaceStrings>
       <replace>commands</replace>
@@ -143,6 +131,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -155,9 +144,9 @@
         <option value="$PROJECT_DIR$/pdftex.js" />
         <option value="$PROJECT_DIR$/texlive.js" />
         <option value="$PROJECT_DIR$/testing.js" />
-        <option value="$PROJECT_DIR$/mainmaybe.html" />
-        <option value="$PROJECT_DIR$/GenerateCircuitByCommand.js" />
         <option value="$PROJECT_DIR$/DrawCanvasCircuit.js" />
+        <option value="$PROJECT_DIR$/GenerateCircuitByCommand.js" />
+        <option value="$PROJECT_DIR$/mainmaybe.html" />
       </list>
     </option>
   </component>
@@ -194,7 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -212,6 +200,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,6 +217,116 @@
       <recent name="C:\Users\Literal Genie\Documents\LaTeX\AutoCircuit\images" />
       <recent name="C:\Users\Literal Genie\Documents\LaTeX\AutoCircuit" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -277,33 +376,46 @@
       <workItem from="1518897314025" duration="3150000" />
       <workItem from="1518902353385" duration="700000" />
       <workItem from="1518907638720" duration="1970000" />
-      <workItem from="1519140983628" duration="12147000" />
+      <workItem from="1519140983628" duration="13511000" />
+      <workItem from="1519161835258" duration="4813000" />
+      <workItem from="1519177307674" duration="2676000" />
+      <workItem from="1519180316872" duration="225000" />
+      <workItem from="1519242856555" duration="383000" />
+      <workItem from="1519663598402" duration="696000" />
     </task>
+    <task id="LOCAL-00001" summary="More comments&#10;&#10;Made adding component code easier with some refactoring (minimal amount of copy pasting). &#10;To add new components, simply:&#10;   - add a new arr to comps&#10;   - create a new var that holds the keyword/matching info&#10;   - add a new arr to compArr">
+      <created>1519154929413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519154929413</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91194000" />
+    <option name="totallyTimeSpent" value="101351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40349075" sideWeight="0.5062631" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32655138" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39979655" sideWeight="0.49373695" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979655" sideWeight="0.49373695" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1053" y="100" width="774" height="887" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -330,12 +442,52 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="More comments&#10;&#10;Made adding component code easier with some refactoring (minimal amount of copy pasting). &#10;To add new components, simply:&#10;   - add a new arr to comps&#10;   - create a new var that holds the keyword/matching info&#10;   - add a new arr to compArr" />
+    <option name="LAST_COMMIT_MESSAGE" value="More comments&#10;&#10;Made adding component code easier with some refactoring (minimal amount of copy pasting). &#10;To add new components, simply:&#10;   - add a new arr to comps&#10;   - create a new var that holds the keyword/matching info&#10;   - add a new arr to compArr" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="138" />
+      <option name="time" value="141" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JavascriptDebugType">
@@ -398,6 +550,11 @@
     </expressions>
     <expressions id="breakpointCondition">
       <expression>
+        <expression-string>compArr[j][1].partialKeys[0] == &quot;short&quot;</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>comp.partialKeys[0] == &quot;resistor&quot;</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -421,6 +578,21 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>property</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>comps.resistors.length</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>comps</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>hiddenCode</expression-string>
         <language-id>JavaScript</language-id>
@@ -446,6 +618,234 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DrawCanvasCircuit.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="53" lean-forward="false" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainmaybe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="43" lean-forward="false" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenerateCircuitByCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="33" column="53" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="53" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#476#534#0" expanded="false" />
+            <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
+            <element signature="e#1640#1819#0" expanded="false" />
+            <element signature="e#1887#2040#0" expanded="false" />
+            <element signature="e#2046#2103#0" expanded="false" />
+            <element signature="n#!!block;n#update#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
+            <element signature="e#3228#3263#0" expanded="false" />
+            <element signature="e#3561#3648#0" expanded="false" />
+            <element signature="e#3591#3644#0" expanded="false" />
+            <element signature="n#!!block;n#parseDims#0" expanded="false" />
+            <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
+            <element signature="e#4677#4995#0" expanded="false" />
+            <element signature="e#4767#4851#0" expanded="false" />
+            <element signature="e#4886#4969#0" expanded="false" />
+            <element signature="e#6126#6158#0" expanded="false" />
+            <element signature="e#6264#6343#0" expanded="false" />
+            <element signature="e#6508#7192#0" expanded="false" />
+            <element signature="e#6551#7188#0" expanded="false" />
+            <element signature="e#6655#6902#0" expanded="false" />
+            <element signature="e#6934#7183#0" expanded="false" />
+            <marker date="1519663940879" expanded="true" signature="5987:5991" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13152:13156" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13328:13332" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DrawCanvasCircuit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="53" lean-forward="false" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenerateCircuitByCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="53" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="53" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#476#534#0" expanded="false" />
+            <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
+            <element signature="e#1640#1819#0" expanded="false" />
+            <element signature="e#1887#2040#0" expanded="false" />
+            <element signature="e#2046#2103#0" expanded="false" />
+            <element signature="n#!!block;n#update#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
+            <element signature="e#3228#3263#0" expanded="false" />
+            <element signature="e#3561#3648#0" expanded="false" />
+            <element signature="e#3591#3644#0" expanded="false" />
+            <element signature="n#!!block;n#parseDims#0" expanded="false" />
+            <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
+            <element signature="e#4677#4995#0" expanded="false" />
+            <element signature="e#4767#4851#0" expanded="false" />
+            <element signature="e#4886#4969#0" expanded="false" />
+            <element signature="e#6126#6158#0" expanded="false" />
+            <element signature="e#6264#6343#0" expanded="false" />
+            <element signature="e#6508#7192#0" expanded="false" />
+            <element signature="e#6551#7188#0" expanded="false" />
+            <element signature="e#6655#6902#0" expanded="false" />
+            <element signature="e#6934#7183#0" expanded="false" />
+            <marker date="1519663940879" expanded="true" signature="5987:5991" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13152:13156" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13328:13332" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainmaybe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="79" column="43" lean-forward="false" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DrawCanvasCircuit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenerateCircuitByCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8704">
+          <caret line="512" column="0" lean-forward="false" selection-start-line="512" selection-start-column="0" selection-end-line="512" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#476#534#0" expanded="false" />
+            <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
+            <element signature="e#1640#1819#0" expanded="false" />
+            <element signature="e#1887#2040#0" expanded="false" />
+            <element signature="e#2046#2103#0" expanded="false" />
+            <element signature="n#!!block;n#update#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
+            <element signature="e#3228#3263#0" expanded="false" />
+            <element signature="e#3561#3648#0" expanded="false" />
+            <element signature="e#3591#3644#0" expanded="false" />
+            <element signature="n#!!block;n#parseDims#0" expanded="false" />
+            <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
+            <element signature="e#4677#4995#0" expanded="false" />
+            <element signature="e#4767#4851#0" expanded="false" />
+            <element signature="e#4886#4969#0" expanded="false" />
+            <element signature="e#6126#6158#0" expanded="false" />
+            <element signature="e#6264#6343#0" expanded="false" />
+            <element signature="e#6508#7192#0" expanded="false" />
+            <element signature="e#6551#7188#0" expanded="false" />
+            <element signature="e#6655#6902#0" expanded="false" />
+            <element signature="e#6934#7183#0" expanded="false" />
+            <marker date="1519663940879" expanded="true" signature="5987:5991" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13152:13156" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13328:13332" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainmaybe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DrawCanvasCircuit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenerateCircuitByCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="362" column="4" lean-forward="false" selection-start-line="362" selection-start-column="4" selection-end-line="362" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#476#534#0" expanded="false" />
+            <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
+            <element signature="e#1640#1819#0" expanded="false" />
+            <element signature="e#1887#2040#0" expanded="false" />
+            <element signature="e#2046#2103#0" expanded="false" />
+            <element signature="n#!!block;n#update#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
+            <element signature="e#3228#3263#0" expanded="false" />
+            <element signature="e#3561#3648#0" expanded="false" />
+            <element signature="e#3591#3644#0" expanded="false" />
+            <element signature="n#!!block;n#parseDims#0" expanded="false" />
+            <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
+            <element signature="e#4677#4995#0" expanded="false" />
+            <element signature="e#4767#4851#0" expanded="false" />
+            <element signature="e#4886#4969#0" expanded="false" />
+            <element signature="e#6126#6158#0" expanded="false" />
+            <element signature="e#6264#6343#0" expanded="false" />
+            <element signature="e#6508#7192#0" expanded="false" />
+            <element signature="e#6551#7188#0" expanded="false" />
+            <element signature="e#6655#6902#0" expanded="false" />
+            <element signature="e#6934#7183#0" expanded="false" />
+            <marker date="1519663940879" expanded="true" signature="5987:5991" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13152:13156" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13328:13332" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainmaybe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DrawCanvasCircuit.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           <folding />
@@ -462,6 +862,7 @@
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -473,37 +874,29 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#476#534#0" expanded="false" />
-            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
-            <element signature="e#733#1140#0" expanded="false" />
             <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-            <element signature="e#1642#1821#0" expanded="false" />
-            <element signature="e#1889#2042#0" expanded="false" />
-            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="e#1640#1819#0" expanded="false" />
+            <element signature="e#1887#2040#0" expanded="false" />
+            <element signature="e#2046#2103#0" expanded="false" />
             <element signature="n#!!block;n#update#0" expanded="false" />
             <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
-            <element signature="e#3230#3265#0" expanded="false" />
-            <element signature="n#!!block;n#parseInput#0" expanded="false" />
-            <element signature="e#3563#3650#0" expanded="false" />
-            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="e#3228#3263#0" expanded="false" />
+            <element signature="e#3561#3648#0" expanded="false" />
+            <element signature="e#3591#3644#0" expanded="false" />
             <element signature="n#!!block;n#parseDims#0" expanded="false" />
             <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
-            <element signature="e#4679#4997#0" expanded="false" />
-            <element signature="e#4769#4853#0" expanded="false" />
-            <element signature="e#4888#4971#0" expanded="false" />
-            <element signature="n#!!block;n#writeDims#0" expanded="false" />
-            <element signature="e#6087#6119#0" expanded="false" />
-            <element signature="e#6225#6304#0" expanded="false" />
-            <element signature="e#6469#7153#0" expanded="false" />
-            <element signature="e#6512#7149#0" expanded="false" />
-            <element signature="e#6616#6863#0" expanded="false" />
-            <element signature="e#6895#7144#0" expanded="false" />
-            <element signature="n#!!block;n#writeComps#0" expanded="false" />
-            <element signature="e#12319#12407#0" expanded="false" />
-            <element signature="e#12462#12552#0" expanded="false" />
-            <element signature="e#12606#12694#0" expanded="false" />
-            <element signature="n#!!block;n#writeComp#0" expanded="false" />
-            <element signature="e#13030#13402#0" expanded="false" />
-            <element signature="e#13428#13618#0" expanded="false" />
+            <element signature="e#4677#4995#0" expanded="false" />
+            <element signature="e#4767#4851#0" expanded="false" />
+            <element signature="e#4886#4969#0" expanded="false" />
+            <element signature="e#6126#6158#0" expanded="false" />
+            <element signature="e#6264#6343#0" expanded="false" />
+            <element signature="e#6508#7192#0" expanded="false" />
+            <element signature="e#6551#7188#0" expanded="false" />
+            <element signature="e#6655#6902#0" expanded="false" />
+            <element signature="e#6934#7183#0" expanded="false" />
+            <marker date="1519663940879" expanded="true" signature="5987:5991" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13152:13156" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13328:13332" ph="..." />
           </folding>
         </state>
       </provider>
@@ -523,37 +916,29 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#476#534#0" expanded="false" />
-            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
-            <element signature="e#733#1140#0" expanded="false" />
             <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-            <element signature="e#1642#1821#0" expanded="false" />
-            <element signature="e#1889#2042#0" expanded="false" />
-            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="e#1640#1819#0" expanded="false" />
+            <element signature="e#1887#2040#0" expanded="false" />
+            <element signature="e#2046#2103#0" expanded="false" />
             <element signature="n#!!block;n#update#0" expanded="false" />
             <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
-            <element signature="e#3230#3265#0" expanded="false" />
-            <element signature="n#!!block;n#parseInput#0" expanded="false" />
-            <element signature="e#3563#3650#0" expanded="false" />
-            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="e#3228#3263#0" expanded="false" />
+            <element signature="e#3561#3648#0" expanded="false" />
+            <element signature="e#3591#3644#0" expanded="false" />
             <element signature="n#!!block;n#parseDims#0" expanded="false" />
             <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
-            <element signature="e#4679#4997#0" expanded="false" />
-            <element signature="e#4769#4853#0" expanded="false" />
-            <element signature="e#4888#4971#0" expanded="false" />
-            <element signature="n#!!block;n#writeDims#0" expanded="false" />
-            <element signature="e#6087#6119#0" expanded="false" />
-            <element signature="e#6225#6304#0" expanded="false" />
-            <element signature="e#6469#7153#0" expanded="false" />
-            <element signature="e#6512#7149#0" expanded="false" />
-            <element signature="e#6616#6863#0" expanded="false" />
-            <element signature="e#6895#7144#0" expanded="false" />
-            <element signature="n#!!block;n#writeComps#0" expanded="false" />
-            <element signature="e#12319#12407#0" expanded="false" />
-            <element signature="e#12462#12552#0" expanded="false" />
-            <element signature="e#12606#12694#0" expanded="false" />
-            <element signature="n#!!block;n#writeComp#0" expanded="false" />
-            <element signature="e#13030#13402#0" expanded="false" />
-            <element signature="e#13428#13618#0" expanded="false" />
+            <element signature="e#4677#4995#0" expanded="false" />
+            <element signature="e#4767#4851#0" expanded="false" />
+            <element signature="e#4886#4969#0" expanded="false" />
+            <element signature="e#6126#6158#0" expanded="false" />
+            <element signature="e#6264#6343#0" expanded="false" />
+            <element signature="e#6508#7192#0" expanded="false" />
+            <element signature="e#6551#7188#0" expanded="false" />
+            <element signature="e#6655#6902#0" expanded="false" />
+            <element signature="e#6934#7183#0" expanded="false" />
+            <marker date="1519663940879" expanded="true" signature="5987:5991" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13152:13156" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13328:13332" ph="..." />
           </folding>
         </state>
       </provider>
@@ -568,6 +953,7 @@
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -590,6 +976,7 @@
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -601,37 +988,29 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#476#534#0" expanded="false" />
-            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
-            <element signature="e#733#1140#0" expanded="false" />
             <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-            <element signature="e#1642#1821#0" expanded="false" />
-            <element signature="e#1889#2042#0" expanded="false" />
-            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="e#1640#1819#0" expanded="false" />
+            <element signature="e#1887#2040#0" expanded="false" />
+            <element signature="e#2046#2103#0" expanded="false" />
             <element signature="n#!!block;n#update#0" expanded="false" />
             <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
-            <element signature="e#3230#3265#0" expanded="false" />
-            <element signature="n#!!block;n#parseInput#0" expanded="false" />
-            <element signature="e#3563#3650#0" expanded="false" />
-            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="e#3228#3263#0" expanded="false" />
+            <element signature="e#3561#3648#0" expanded="false" />
+            <element signature="e#3591#3644#0" expanded="false" />
             <element signature="n#!!block;n#parseDims#0" expanded="false" />
             <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
-            <element signature="e#4679#4997#0" expanded="false" />
-            <element signature="e#4769#4853#0" expanded="false" />
-            <element signature="e#4888#4971#0" expanded="false" />
-            <element signature="n#!!block;n#writeDims#0" expanded="false" />
-            <element signature="e#6087#6119#0" expanded="false" />
-            <element signature="e#6225#6304#0" expanded="false" />
-            <element signature="e#6469#7153#0" expanded="false" />
-            <element signature="e#6512#7149#0" expanded="false" />
-            <element signature="e#6616#6863#0" expanded="false" />
-            <element signature="e#6895#7144#0" expanded="false" />
-            <element signature="n#!!block;n#writeComps#0" expanded="false" />
-            <element signature="e#12319#12407#0" expanded="false" />
-            <element signature="e#12462#12552#0" expanded="false" />
-            <element signature="e#12606#12694#0" expanded="false" />
-            <element signature="n#!!block;n#writeComp#0" expanded="false" />
-            <element signature="e#13030#13402#0" expanded="false" />
-            <element signature="e#13428#13618#0" expanded="false" />
+            <element signature="e#4677#4995#0" expanded="false" />
+            <element signature="e#4767#4851#0" expanded="false" />
+            <element signature="e#4886#4969#0" expanded="false" />
+            <element signature="e#6126#6158#0" expanded="false" />
+            <element signature="e#6264#6343#0" expanded="false" />
+            <element signature="e#6508#7192#0" expanded="false" />
+            <element signature="e#6551#7188#0" expanded="false" />
+            <element signature="e#6655#6902#0" expanded="false" />
+            <element signature="e#6934#7183#0" expanded="false" />
+            <marker date="1519663940879" expanded="true" signature="5987:5991" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13152:13156" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13328:13332" ph="..." />
           </folding>
         </state>
       </provider>
@@ -654,6 +1033,7 @@
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -665,37 +1045,29 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#476#534#0" expanded="false" />
-            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
-            <element signature="e#733#1140#0" expanded="false" />
             <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-            <element signature="e#1642#1821#0" expanded="false" />
-            <element signature="e#1889#2042#0" expanded="false" />
-            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="e#1640#1819#0" expanded="false" />
+            <element signature="e#1887#2040#0" expanded="false" />
+            <element signature="e#2046#2103#0" expanded="false" />
             <element signature="n#!!block;n#update#0" expanded="false" />
             <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
-            <element signature="e#3230#3265#0" expanded="false" />
-            <element signature="n#!!block;n#parseInput#0" expanded="false" />
-            <element signature="e#3563#3650#0" expanded="false" />
-            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="e#3228#3263#0" expanded="false" />
+            <element signature="e#3561#3648#0" expanded="false" />
+            <element signature="e#3591#3644#0" expanded="false" />
             <element signature="n#!!block;n#parseDims#0" expanded="false" />
             <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
-            <element signature="e#4679#4997#0" expanded="false" />
-            <element signature="e#4769#4853#0" expanded="false" />
-            <element signature="e#4888#4971#0" expanded="false" />
-            <element signature="n#!!block;n#writeDims#0" expanded="false" />
-            <element signature="e#6087#6119#0" expanded="false" />
-            <element signature="e#6225#6304#0" expanded="false" />
-            <element signature="e#6469#7153#0" expanded="false" />
-            <element signature="e#6512#7149#0" expanded="false" />
-            <element signature="e#6616#6863#0" expanded="false" />
-            <element signature="e#6895#7144#0" expanded="false" />
-            <element signature="n#!!block;n#writeComps#0" expanded="false" />
-            <element signature="e#12319#12407#0" expanded="false" />
-            <element signature="e#12462#12552#0" expanded="false" />
-            <element signature="e#12606#12694#0" expanded="false" />
-            <element signature="n#!!block;n#writeComp#0" expanded="false" />
-            <element signature="e#13030#13402#0" expanded="false" />
-            <element signature="e#13428#13618#0" expanded="false" />
+            <element signature="e#4677#4995#0" expanded="false" />
+            <element signature="e#4767#4851#0" expanded="false" />
+            <element signature="e#4886#4969#0" expanded="false" />
+            <element signature="e#6126#6158#0" expanded="false" />
+            <element signature="e#6264#6343#0" expanded="false" />
+            <element signature="e#6508#7192#0" expanded="false" />
+            <element signature="e#6551#7188#0" expanded="false" />
+            <element signature="e#6655#6902#0" expanded="false" />
+            <element signature="e#6934#7183#0" expanded="false" />
+            <marker date="1519663940879" expanded="true" signature="5987:5991" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13152:13156" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13328:13332" ph="..." />
           </folding>
         </state>
       </provider>
@@ -718,6 +1090,7 @@
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -729,37 +1102,29 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#476#534#0" expanded="false" />
-            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
-            <element signature="e#733#1140#0" expanded="false" />
             <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-            <element signature="e#1642#1821#0" expanded="false" />
-            <element signature="e#1889#2042#0" expanded="false" />
-            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="e#1640#1819#0" expanded="false" />
+            <element signature="e#1887#2040#0" expanded="false" />
+            <element signature="e#2046#2103#0" expanded="false" />
             <element signature="n#!!block;n#update#0" expanded="false" />
             <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
-            <element signature="e#3230#3265#0" expanded="false" />
-            <element signature="n#!!block;n#parseInput#0" expanded="false" />
-            <element signature="e#3563#3650#0" expanded="false" />
-            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="e#3228#3263#0" expanded="false" />
+            <element signature="e#3561#3648#0" expanded="false" />
+            <element signature="e#3591#3644#0" expanded="false" />
             <element signature="n#!!block;n#parseDims#0" expanded="false" />
             <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
-            <element signature="e#4679#4997#0" expanded="false" />
-            <element signature="e#4769#4853#0" expanded="false" />
-            <element signature="e#4888#4971#0" expanded="false" />
-            <element signature="n#!!block;n#writeDims#0" expanded="false" />
-            <element signature="e#6087#6119#0" expanded="false" />
-            <element signature="e#6225#6304#0" expanded="false" />
-            <element signature="e#6469#7153#0" expanded="false" />
-            <element signature="e#6512#7149#0" expanded="false" />
-            <element signature="e#6616#6863#0" expanded="false" />
-            <element signature="e#6895#7144#0" expanded="false" />
-            <element signature="n#!!block;n#writeComps#0" expanded="false" />
-            <element signature="e#12319#12407#0" expanded="false" />
-            <element signature="e#12462#12552#0" expanded="false" />
-            <element signature="e#12606#12694#0" expanded="false" />
-            <element signature="n#!!block;n#writeComp#0" expanded="false" />
-            <element signature="e#13030#13402#0" expanded="false" />
-            <element signature="e#13428#13618#0" expanded="false" />
+            <element signature="e#4677#4995#0" expanded="false" />
+            <element signature="e#4767#4851#0" expanded="false" />
+            <element signature="e#4886#4969#0" expanded="false" />
+            <element signature="e#6126#6158#0" expanded="false" />
+            <element signature="e#6264#6343#0" expanded="false" />
+            <element signature="e#6508#7192#0" expanded="false" />
+            <element signature="e#6551#7188#0" expanded="false" />
+            <element signature="e#6655#6902#0" expanded="false" />
+            <element signature="e#6934#7183#0" expanded="false" />
+            <marker date="1519663940879" expanded="true" signature="5987:5991" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13152:13156" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13328:13332" ph="..." />
           </folding>
         </state>
       </provider>
@@ -779,37 +1144,29 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#476#534#0" expanded="false" />
-            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
-            <element signature="e#733#1140#0" expanded="false" />
             <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-            <element signature="e#1642#1821#0" expanded="false" />
-            <element signature="e#1889#2042#0" expanded="false" />
-            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="e#1640#1819#0" expanded="false" />
+            <element signature="e#1887#2040#0" expanded="false" />
+            <element signature="e#2046#2103#0" expanded="false" />
             <element signature="n#!!block;n#update#0" expanded="false" />
             <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
-            <element signature="e#3230#3265#0" expanded="false" />
-            <element signature="n#!!block;n#parseInput#0" expanded="false" />
-            <element signature="e#3563#3650#0" expanded="false" />
-            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="e#3228#3263#0" expanded="false" />
+            <element signature="e#3561#3648#0" expanded="false" />
+            <element signature="e#3591#3644#0" expanded="false" />
             <element signature="n#!!block;n#parseDims#0" expanded="false" />
             <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
-            <element signature="e#4679#4997#0" expanded="false" />
-            <element signature="e#4769#4853#0" expanded="false" />
-            <element signature="e#4888#4971#0" expanded="false" />
-            <element signature="n#!!block;n#writeDims#0" expanded="false" />
-            <element signature="e#6087#6119#0" expanded="false" />
-            <element signature="e#6225#6304#0" expanded="false" />
-            <element signature="e#6469#7153#0" expanded="false" />
-            <element signature="e#6512#7149#0" expanded="false" />
-            <element signature="e#6616#6863#0" expanded="false" />
-            <element signature="e#6895#7144#0" expanded="false" />
-            <element signature="n#!!block;n#writeComps#0" expanded="false" />
-            <element signature="e#12319#12407#0" expanded="false" />
-            <element signature="e#12462#12552#0" expanded="false" />
-            <element signature="e#12606#12694#0" expanded="false" />
-            <element signature="n#!!block;n#writeComp#0" expanded="false" />
-            <element signature="e#13030#13402#0" expanded="false" />
-            <element signature="e#13428#13618#0" expanded="false" />
+            <element signature="e#4677#4995#0" expanded="false" />
+            <element signature="e#4767#4851#0" expanded="false" />
+            <element signature="e#4886#4969#0" expanded="false" />
+            <element signature="e#6126#6158#0" expanded="false" />
+            <element signature="e#6264#6343#0" expanded="false" />
+            <element signature="e#6508#7192#0" expanded="false" />
+            <element signature="e#6551#7188#0" expanded="false" />
+            <element signature="e#6655#6902#0" expanded="false" />
+            <element signature="e#6934#7183#0" expanded="false" />
+            <marker date="1519663940879" expanded="true" signature="5987:5991" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13152:13156" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13328:13332" ph="..." />
           </folding>
         </state>
       </provider>
@@ -824,6 +1181,7 @@
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -843,37 +1201,29 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#476#534#0" expanded="false" />
-            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
-            <element signature="e#733#1140#0" expanded="false" />
             <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-            <element signature="e#1642#1821#0" expanded="false" />
-            <element signature="e#1889#2042#0" expanded="false" />
-            <element signature="e#2048#2105#0" expanded="false" />
+            <element signature="e#1640#1819#0" expanded="false" />
+            <element signature="e#1887#2040#0" expanded="false" />
+            <element signature="e#2046#2103#0" expanded="false" />
             <element signature="n#!!block;n#update#0" expanded="false" />
             <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
-            <element signature="e#3230#3265#0" expanded="false" />
-            <element signature="n#!!block;n#parseInput#0" expanded="false" />
-            <element signature="e#3563#3650#0" expanded="false" />
-            <element signature="e#3593#3646#0" expanded="false" />
+            <element signature="e#3228#3263#0" expanded="false" />
+            <element signature="e#3561#3648#0" expanded="false" />
+            <element signature="e#3591#3644#0" expanded="false" />
             <element signature="n#!!block;n#parseDims#0" expanded="false" />
             <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
-            <element signature="e#4679#4997#0" expanded="false" />
-            <element signature="e#4769#4853#0" expanded="false" />
-            <element signature="e#4888#4971#0" expanded="false" />
-            <element signature="n#!!block;n#writeDims#0" expanded="false" />
-            <element signature="e#6087#6119#0" expanded="false" />
-            <element signature="e#6225#6304#0" expanded="false" />
-            <element signature="e#6469#7153#0" expanded="false" />
-            <element signature="e#6512#7149#0" expanded="false" />
-            <element signature="e#6616#6863#0" expanded="false" />
-            <element signature="e#6895#7144#0" expanded="false" />
-            <element signature="n#!!block;n#writeComps#0" expanded="false" />
-            <element signature="e#12319#12407#0" expanded="false" />
-            <element signature="e#12462#12552#0" expanded="false" />
-            <element signature="e#12606#12694#0" expanded="false" />
-            <element signature="n#!!block;n#writeComp#0" expanded="false" />
-            <element signature="e#13030#13402#0" expanded="false" />
-            <element signature="e#13428#13618#0" expanded="false" />
+            <element signature="e#4677#4995#0" expanded="false" />
+            <element signature="e#4767#4851#0" expanded="false" />
+            <element signature="e#4886#4969#0" expanded="false" />
+            <element signature="e#6126#6158#0" expanded="false" />
+            <element signature="e#6264#6343#0" expanded="false" />
+            <element signature="e#6508#7192#0" expanded="false" />
+            <element signature="e#6551#7188#0" expanded="false" />
+            <element signature="e#6655#6902#0" expanded="false" />
+            <element signature="e#6934#7183#0" expanded="false" />
+            <marker date="1519663940879" expanded="true" signature="5987:5991" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13152:13156" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13328:13332" ph="..." />
           </folding>
         </state>
       </provider>
@@ -888,6 +1238,7 @@
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -909,6 +1260,7 @@
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -930,6 +1282,7 @@
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -973,67 +1326,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/vs.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/wire.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DrawCanvasCircuit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="50" column="53" lean-forward="false" selection-start-line="50" selection-start-column="53" selection-end-line="50" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenerateCircuitByCommand.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2924">
+          <caret line="362" column="83" lean-forward="false" selection-start-line="362" selection-start-column="83" selection-end-line="362" selection-end-column="83" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#476#534#0" expanded="false" />
+            <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
+            <element signature="e#1640#1819#0" expanded="false" />
+            <element signature="e#1887#2040#0" expanded="false" />
+            <element signature="e#2046#2103#0" expanded="false" />
+            <element signature="n#!!block;n#update#0" expanded="false" />
+            <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
+            <element signature="e#3228#3263#0" expanded="false" />
+            <element signature="e#3561#3648#0" expanded="false" />
+            <element signature="e#3591#3644#0" expanded="false" />
+            <element signature="n#!!block;n#parseDims#0" expanded="false" />
+            <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
+            <element signature="e#4677#4995#0" expanded="false" />
+            <element signature="e#4767#4851#0" expanded="false" />
+            <element signature="e#4886#4969#0" expanded="false" />
+            <element signature="e#6126#6158#0" expanded="false" />
+            <element signature="e#6264#6343#0" expanded="false" />
+            <element signature="e#6508#7192#0" expanded="false" />
+            <element signature="e#6551#7188#0" expanded="false" />
+            <element signature="e#6655#6902#0" expanded="false" />
+            <element signature="e#6934#7183#0" expanded="false" />
+            <marker date="1519663940879" expanded="true" signature="5987:5991" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13152:13156" ph="..." />
+            <marker date="1519663940879" expanded="true" signature="13328:13332" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mainmaybe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+        <state relative-caret-position="154">
+          <caret line="43" column="114" lean-forward="false" selection-start-line="43" selection-start-column="114" selection-end-line="43" selection-end-column="114" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#canvas#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#form#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenerateCircuitByCommand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="362" column="4" lean-forward="false" selection-start-line="362" selection-start-column="4" selection-end-line="362" selection-end-column="4" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#476#534#0" expanded="false" />
-            <element signature="n#!!block;n#updateTikzPic#0" expanded="false" />
-            <element signature="e#733#1140#0" expanded="false" />
-            <element signature="n#!!block;n#doCORSRequest#0" expanded="false" />
-            <element signature="e#1642#1821#0" expanded="false" />
-            <element signature="e#1889#2042#0" expanded="false" />
-            <element signature="e#2048#2105#0" expanded="false" />
-            <element signature="n#!!block;n#update#0" expanded="false" />
-            <element signature="n#!!block;n#updateTikzCode#0" expanded="false" />
-            <element signature="e#3230#3265#0" expanded="false" />
-            <element signature="n#!!block;n#parseInput#0" expanded="false" />
-            <element signature="e#3563#3650#0" expanded="false" />
-            <element signature="e#3593#3646#0" expanded="false" />
-            <element signature="n#!!block;n#parseDims#0" expanded="false" />
-            <element signature="n#!!block;n#parseDimOpts#0" expanded="false" />
-            <element signature="e#4679#4997#0" expanded="false" />
-            <element signature="e#4769#4853#0" expanded="false" />
-            <element signature="e#4888#4971#0" expanded="false" />
-            <element signature="n#!!block;n#writeDims#0" expanded="false" />
-            <element signature="e#6087#6119#0" expanded="false" />
-            <element signature="e#6225#6304#0" expanded="false" />
-            <element signature="e#6469#7153#0" expanded="false" />
-            <element signature="e#6512#7149#0" expanded="false" />
-            <element signature="e#6616#6863#0" expanded="false" />
-            <element signature="e#6895#7144#0" expanded="false" />
-            <element signature="n#!!block;n#writeComps#0" expanded="false" />
-            <element signature="e#12319#12407#0" expanded="false" />
-            <element signature="e#12462#12552#0" expanded="false" />
-            <element signature="e#12606#12694#0" expanded="false" />
-            <element signature="n#!!block;n#writeComp#0" expanded="false" />
-            <element signature="e#13030#13402#0" expanded="false" />
-            <element signature="e#13428#13618#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DrawCanvasCircuit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>

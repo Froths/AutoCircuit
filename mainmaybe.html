@@ -41,9 +41,10 @@
             <p id="output">Some text..</p>
             <textarea id="input" rows="10" oninput="update()" cols="35"></textarea>
             <form>
-                x-Coordinate Multiplier: <input type="number" id="xMult" min="1" max="5" oninput="update()"><br>
-                y-Coordinate Multiplier: <input type="number" id="yMult" min="1" max="5" oninput="update()">
+                x-Coordinate Multiplier: <input type="number" id="xMult" min="1" max="5" oninput="update()" value=2><br>
+                y-Coordinate Multiplier: <input type="number" id="yMult" min="1" max="5" oninput="update()" value=2>
             </form>
+            <br>Supported syntax found <a href="https://github.com/Froths/AutoCircuit">here</a>
         </div>
 
 
@@ -61,6 +62,11 @@
             <canvas id="myCanvas" width="600" height="600" style="border:1px solid #d3d3d3;">
                 Your browser does not support the HTML5 canvas tag.
             </canvas>
+            <form>
+                <input style="width: 300px; padding: 20px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #cccccc; color: #000; border-radius: 10px; border: 1px solid #999; font-size: 150%;" type="button"
+                       value="Render"
+                       onclick=updateTikzPic() />
+            </form>
         </div>
 
 
@@ -71,7 +77,8 @@
     <script>
         function init()
             {
-            window.setInterval(function(){updateTikzPic()},2000);
+            //window.setInterval(function(){updateTikzPic()},2000);
+			window.setInterval(function(){document.getElementById('tikzpicture').setAttribute("style", "margin-bottom:-" + document.getElementById('tikzpicture').height + "px")}, 1000);
             }
     </script>
 

@@ -18,6 +18,8 @@ function canvasDraw()
 	vs.src = "images/vs.png";
 	var cs = new Image();
 	cs.src = "images/cs.png";
+	var short = new Image();
+	short.src = "images/wire.png";
 
 	var commands = (currentTikzCode.split("\n")).concat(hiddenCode.split("\n"));
 	for(var i = 0; i < commands.length; i++)
@@ -27,12 +29,13 @@ function canvasDraw()
 		var nodeRegex = /node at/;
 		var labelRegex = /node at.*{(.*)}/;
 
-		var shortRegex = /to\[short/;
+		// var shortRegex = /to\[short/;
 		var resistorRegex = /\((.*)\).*resistor.*\((.*)\)/
 		var capacitorRegex = /\((.*)\).*capacitor.*\((.*)\)/
 		var inductorRegex = /\((.*)\).*inductor.*\((.*)\)/
 		var csRegex = /\((.*)\).*current source.*\((.*)\)/
 		var vsRegex = /\((.*)\).*voltage source.*\((.*)\)/
+		var shortRegex =/\((.*)\).*short.*\((.*)\)/
 
 		if(nodeRegex.test(commands[i]))
 			{
@@ -121,6 +124,17 @@ function canvasDraw()
 
 			drawComp({beginPoint: begin, endPoint: end, component: cs});
 			}
+
+		// if(shortRegex.test(commands[i]))
+		// 	{
+		// 	var coords = coordRegex.exec(commands[i])[1].split(",");
+		// 	var begin = coords;
+		//
+		// 	coords = coordRegex.exec(commands[i])[1].split(",");
+		// 	var end = coords;
+		//
+		// 	drawComp({beginPoint: begin, endPoint: end, component: short});
+		// 	}
 		}
 	}
 
@@ -132,19 +146,28 @@ function drawComp(options)
 	let begin = options.beginPoint;
 	let end = options.endPoint;
 	let comp = options.component;
-	
+
+	//Angle and length of the component
 	var angle = Math.atan2(end[1]-begin[1], end[0]-begin[0]);
 	var dist = htmlScaling*Math.sqrt(Math.pow(end[1]-begin[1], 2) + Math.pow(end[0]-begin[0], 2));
 
+	//Define the starting x and y coordinates.
+	//Note that the y coordinate is inverted (wrt to canvas height) because the
+	// tikz coordinate system goes up and right, while the canvas goes down and right.
 	ctx.beginPath();
 	let translateX = (htmlScaling*begin[0] + htmlOffset);
 	let translateY =  c.height - (htmlScaling*begin[1] + htmlOffset);
 
+	//Scale the comp image height according to its length
 	let height = (dist/comp.width)*comp.height;
 
+	//Shift the origin to the start point.
 	ctx.translate(translateX,translateY);
+	//Align the x axis with the direction of the component.
 	ctx.rotate(-angle);
+	//Draw the image (along the new x axis)
 	ctx.drawImage(comp, 0,-height/2, dist, height);
+	//Undo the rotation/translation of canvas.
 	ctx.rotate(angle);
 	ctx.translate(-translateX, -translateY);
 	}
