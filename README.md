@@ -18,6 +18,26 @@ Demo: http://htmlpreview.github.io/?https://github.com/Froths/AutoCircuit/blob/m
 		- `capacitor`
 		- `cs` or `current source`
 		- `vs` or `voltage source`
+		- `short` or `wire`
 
 - `{comp} {x1} {y1} {x2} {y2}`: Draws a component that starts at the coordinate `(x1,y1)` and ends at `(x2,y2)`
 	- Currently supported components are the same as for the `{comp} {node1} {node2}` syntax 
+
+
+# Example
+
+Code:
+
+```
+5x5 show labels hide nodes
+
+short 10 20  res 20 24  short 24 14
+
+ind 10 12    cap 12 14
+
+cs 0 10      short 0 4  vs 4 14
+```
+
+Render:
+
+![2/26/2018](https://i.imgur.com/AdInrua.png)
