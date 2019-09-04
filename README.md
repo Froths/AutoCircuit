@@ -1,6 +1,6 @@
 # AutoCircuit
 Demo: http://htmlpreview.github.io/?https://github.com/Froths/AutoCircuit/blob/master/mainmaybe.html
-![](demo.gif)
+![](demo.mp4)
 
 # Currently supported syntax:
 
